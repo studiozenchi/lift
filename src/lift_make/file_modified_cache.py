@@ -13,8 +13,8 @@ E.g.
 import os
 import pathlib
 import re
-import lift.helpers as helpers
-import lift.print_color as Out
+import lift_make.helpers as helpers
+import lift_make.print_color as Out
 
 class FileModifiedCache:
     parse_re = re.compile(r'"(.*)",(.*)')

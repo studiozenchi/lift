@@ -2,10 +2,10 @@ import os
 import sys
 import importlib.util
 
-import lift.print_color as Out
-import lift.helpers as helpers
-from lift.lift_class import LiftClass
-import lift.template_lift_build as Template
+import lift_make.print_color as Out
+import lift_make.helpers as helpers
+from lift_make.lift_class import LiftClass
+import lift_make.template_lift_build as Template
 
 def main():
     Out.print_info("- - - lift - - -")

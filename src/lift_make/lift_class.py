@@ -1,10 +1,10 @@
 import os
 import shutil
-import lift.print_color as Out
-from lift.compiler import Compiler
-from lift.files import Files
-from lift.workers import Workers
-from lift.incremental import Incremental
+import lift_make.print_color as Out
+from lift_make.compiler import Compiler
+from lift_make.files import Files
+from lift_make.workers import Workers
+from lift_make.incremental import Incremental
 
 class LiftClass:
     # Name of your app

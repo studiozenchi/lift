@@ -1,8 +1,8 @@
 
 import os
 
-from lift.lift_class import LiftClass
-import lift.print_color as Out
+from lift_make.lift_class import LiftClass
+import lift_make.print_color as Out
 
 Out.TOGGLE_DEBUG = True
 

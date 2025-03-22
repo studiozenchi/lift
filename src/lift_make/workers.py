@@ -1,4 +1,4 @@
-import lift.print_color as Out
+import lift_make.print_color as Out
 
 import os
 import subprocess

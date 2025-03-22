@@ -1,6 +1,6 @@
 [project]
-name = "lift"
-version = "0.1.0"
+name = "lift_make"
+version = "0.1.1"
 description = "Lift is a CMAKE/makefile replacement for C built with Python (Similar cli to zig build or Rust Cargo)"
 readme = "README.md"
 authors = [
@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-lift = "lift:main"
+lift = "lift_make:main"
 
 [build-system]
 requires = ["hatchling"]

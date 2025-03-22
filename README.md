@@ -4,7 +4,7 @@
 
 Some intended features:
 
-- Installable CLI via `pip`
+- Installable CLI via `uv` or `pip`
 - Extensible via Python
 - Zero configuration project init and sample build file
 
@@ -33,22 +33,13 @@ Some intended features:
 
 # How to build & run
 
-0) Install setuptools `pip install setuptools`
+1. Install [uv](https://docs.astral.sh/uv/)
 
-1) Remove old build `rm -r dist`
+2. Run lift without installing by using the conveniece wrapper `uvx` like so:
+  - `uvx --from lift-make lift <COMMAND> <OPTIONS>`
+  - Example: from the `/sample` directory of this repo run `uvx --from lift-make lift run`.
+    You should see `You cast a Gravity Well (2) spell!` in the terminal.
 
-2) Build `python setup.py sdist`
-
-3) Uninstall old version if version number changed `yes | pip uninstall lift`
-
-4) Install `pip install dist/lift*.gz`
-
-5) Run `lift`
-
-**OR**
-
-0) Install setuptools `pip install setuptools`
-
-1) Run `./build.sh`
-
-2) Run `lift`
+3. If you use it a lot, you can use uv to install the tool locally
+  - `uv tool install lift-make`
+  - Now you make run commands with just `lift build` etc

@@ -6,10 +6,10 @@ into a set of .c files that must be compiled into object files
 """
 import os
 import re
-import lift.print_color as Out
-from lift.file_modified_cache import FileModifiedCache
-from lift.dependency_graph import DependencyGraph, FileNode
-from lift.files import Files
+import lift_make.print_color as Out
+from lift_make.file_modified_cache import FileModifiedCache
+from lift_make.dependency_graph import DependencyGraph, FileNode
+from lift_make.files import Files
 
 class Incremental:
     def __init__(self, VERBOSE=True):
