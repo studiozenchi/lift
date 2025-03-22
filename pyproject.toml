@@ -1,6 +1,6 @@
 [project]
 name = "lift_make"
-version = "0.1.1"
+version = "0.1.2"
 description = "Lift is a CMAKE/makefile replacement for C built with Python (Similar cli to zig build or Rust Cargo)"
 readme = "README.md"
 authors = [
