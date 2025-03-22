@@ -15,11 +15,11 @@ Some intended features:
 
 `lift build` - Generates the build in a debug mode
 
-`lift build release/debug` - Generates the build in a spicified mode
+`lift build release/debug` - Generates the build in a specified mode
 
 `lift run` - Generates the build and runs the app in the debug mode
 
-`lift run release/debug` - Generates the build in a spicified mode and runs the app
+`lift run release/debug` - Generates the build in a specified mode and runs the app
 
 `lift test` - Runs unit tests
 
